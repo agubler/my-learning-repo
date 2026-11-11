@@ -1,0 +1,18 @@
+{
+  "name": "design-system",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "storybook": "pnpm --filter @ds/storybook dev",
+    "build-storybook": "pnpm --filter @ds/storybook build",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3"
+  }
+}
